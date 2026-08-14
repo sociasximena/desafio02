@@ -1,28 +1,22 @@
-/* ==========================================
-   RESET DE LA PÁGINA
-   ========================================== */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* ==========================================
-   ESTILOS GENERALES Y BODY
-   ========================================== */
+
 body {
-    font-family: 'Roboto', sans-serif; /* Tipografía para el cuerpo */
-    background-color: #f4f6f9;         /* Color de fondo a elección */
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f4f6f9;
     color: #333333;
 }
 
-/* ==========================================
-   ENCABEZADO (HEADER)
-   ========================================== */
+
 header {
-    background-color: #ffc5aa; /* Color de fondo a elección */
-    color: #ffffff;            /* Color de letra */
-    text-align: center;        /* Centrado */
+    background-color: #ffc5aa; 
+    color: #ffffff;            
+    text-align: center;        
     padding: 30px 20px;
 }
 
@@ -42,40 +36,36 @@ header h3 {
     color:#ffffff;
 }
 
-/* ==========================================
-   SECCIONES (SECTION) Y CONTENIDO PRINCIPAL
-   ========================================== */
+
 section {
-    width: 90%;                /* Ancho del 90% */
-    margin: 10px auto;         /* Margen de 10px arriba/abajo y auto a los lados */
+    width: 90%;               
+    margin: 10px auto;         
     background-color: #eef8cd;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
-/* Encabezados h3 de las secciones */
+
 h3 {
-    font-family: 'Montserrat', sans-serif; /* Tipografía distinta de Google Fonts */
-    text-align: center;                   /* Alineación centrada */
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;                   
     margin-bottom: 15px;
     color: #ffc5aa;
 }
 
-/* Párrafos */
+
 p {
-    text-align: justify;       /* Texto justificado */
-    line-height: 150%;         /* Espacio entre líneas al 150% (1.5) */
+    text-align: justify;       
+    line-height: 150%;         
     font-size: 1rem;
 }
 
-/* ==========================================
-   PIE DE PÁGINA (FOOTER)
-   ========================================== */
+
 footer {
-    background-color: #ffc5aa; /* Color de fondo */
-    color: #ffffff;            /* Color de letra */
-    text-align: center;        /* Centrado */
+    background-color: #ffc5aa; 
+    color: #ffffff;            
+    text-align: center;        
     padding: 20px;
     margin-top: 20px;
 }
