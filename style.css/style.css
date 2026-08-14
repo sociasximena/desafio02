@@ -1,0 +1,86 @@
+/* ==========================================
+   RESET DE LA PÁGINA
+   ========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ==========================================
+   ESTILOS GENERALES Y BODY
+   ========================================== */
+body {
+    font-family: 'Roboto', sans-serif; /* Tipografía para el cuerpo */
+    background-color: #f4f6f9;         /* Color de fondo a elección */
+    color: #333333;
+}
+
+/* ==========================================
+   ENCABEZADO (HEADER)
+   ========================================== */
+header {
+    background-color: #ffc5aa; /* Color de fondo a elección */
+    color: #ffffff;            /* Color de letra */
+    text-align: center;        /* Centrado */
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+header h3 {
+    font-size: 1.2rem;
+    color:#ffffff;
+}
+
+/* ==========================================
+   SECCIONES (SECTION) Y CONTENIDO PRINCIPAL
+   ========================================== */
+section {
+    width: 90%;                /* Ancho del 90% */
+    margin: 10px auto;         /* Margen de 10px arriba/abajo y auto a los lados */
+    background-color: #eef8cd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Encabezados h3 de las secciones */
+h3 {
+    font-family: 'Montserrat', sans-serif; /* Tipografía distinta de Google Fonts */
+    text-align: center;                   /* Alineación centrada */
+    margin-bottom: 15px;
+    color: #ffc5aa;
+}
+
+/* Párrafos */
+p {
+    text-align: justify;       /* Texto justificado */
+    line-height: 150%;         /* Espacio entre líneas al 150% (1.5) */
+    font-size: 1rem;
+}
+
+/* ==========================================
+   PIE DE PÁGINA (FOOTER)
+   ========================================== */
+footer {
+    background-color: #ffc5aa; /* Color de fondo */
+    color: #ffffff;            /* Color de letra */
+    text-align: center;        /* Centrado */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer h5 {
+    font-weight: 400;
+    font-size: 0.95rem;
+}
